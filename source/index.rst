@@ -8,8 +8,7 @@ Get Started with Sphinx
 .. toctree::
    :maxdepth: 2
 
-   part-1
-   part-2
+   Angular
 
 
 .. add new files to list above to include them in toc
