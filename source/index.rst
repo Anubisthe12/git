@@ -1,4 +1,4 @@
-Angular started
+Get Started with Sphinx
 ###############################
 
 .. |Contents| replace:: Table of Contents
@@ -8,9 +8,8 @@ Angular started
 .. toctree::
    :maxdepth: 2
 
-   Angular
-
-
+   part-1
+   part-2
 
 
 .. add new files to list above to include them in toc
