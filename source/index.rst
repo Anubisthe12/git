@@ -1,4 +1,4 @@
-Get Started with Sphinx
+Angular tutorial
 ###############################
 
 .. |Contents| replace:: Table of Contents
