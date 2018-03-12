@@ -9,6 +9,6 @@ Get Started with Sphinx
    :maxdepth: 2
 
    Angular
-    Typescript
+   Typescript
 
 .. add new files to list above to include them in toc
