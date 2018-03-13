@@ -9,6 +9,6 @@ Angular tutorial start
    :maxdepth: 2
 
    Angular
-   Typescript
+   Router
 
 .. add new files to list above to include them in toc
