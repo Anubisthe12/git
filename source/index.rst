@@ -8,8 +8,10 @@ Angular tutorial start
 .. toctree::
    :maxdepth: 2
 
-    
-   Angular
-   JavaScript
+    JavaScript
+    Angular
+    TypeScript
+    Router
+  
 
 .. add new files to list above to include them in toc
