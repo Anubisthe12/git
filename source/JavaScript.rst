@@ -15,7 +15,7 @@ var pole = ["1","2","3","4","5"];
           ["1","2","3","4"] 
 * shift() - odstraňuje posledný prvok poľa, vracia odstránený prvok
           ["1","2","3","4"] 
-=> návratová hodnota - "5"
+          návratová hodnota - "5"
 * push() - pridáva posledný prvok poľa
           ["1","2","3","4","5","Pridaný prvok"];
 * unshift()- pridáva prvé prvky poľa, vracia dĺžku poľa
