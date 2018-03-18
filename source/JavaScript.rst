@@ -7,16 +7,18 @@ JavaScript
 
 Modifikačné metódy 
 ==========
+
 var pole = ["1","2","3","4","5"];
 => pole.pop(); 
 
-* pop()
+* pop() 
  - odstraňuje posledný prvok poľa, vracia pole
 ["1","2","3","4"] 
 * shift() 
 - odstraňuje posledný prvok poľa, vracia odstránený prvok
-=> ["1","2","3","4"] 
-=> návratová hodnota - "5"
+ ["1","2","3","4"] 
+návratová hodnota - "5"
+
 * push() 
 - pridáva posledný prvok poľa
 => ["1","2","3","4","5","Pridaný prvok"];
