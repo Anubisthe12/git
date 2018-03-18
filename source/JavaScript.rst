@@ -20,7 +20,7 @@ var pole = ["1","2","3","4","5"];
           ["1","2","3","4","5","Pridaný prvok"];
 * unshift()- pridáva prvé prvky poľa, vracia dĺžku poľa
            ["Pridaný prvok","1","2","3","4","5"];
-           návratová hodnota - 6
+           - návratová hodnota - 6
 * reverse() - obráti prvky poľa
           ["5", "4", "3", "2", "1"]
 * sort() - zoradenie prvkov
