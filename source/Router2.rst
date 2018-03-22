@@ -17,6 +17,7 @@ Guards - canActivate()
     }
     
  //Router
+ 
  {path:"red", component:RedComponent, canActivate:[NazovGuard]},
 
 
