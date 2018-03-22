@@ -1,11 +1,24 @@
-Čo je to router?
+Router
 ==========
-Angular Router umožňuje navigáciu medzi jednotlivými pohľadmi (views) počas toho ako užívateľ používa Vašu aplikáciu. 
+-  umožňuje navigaciu medzi komponentami
 
-Router je zodpovedný za to, že:
+Výhody
 ==========
+- načítanie dynamických parametrov z URL
+- obmedzenie prístupu pre neautentifikovaných užívateľov
 
-Ak užívateľ klikne na položku menu dostane sa do nového pohľadu s novým načítaným komponentom
-Do komponentu dokáže natiahnuť dynamické parametre z URL
-Pri použití deeplinku zobrazí konkrétny komponent a jeho konkrétny stav
-Obmedzí prístup pre neautentifikovaných užívateľov (tzv. Guards)
+Základný router
+==========
+- potrebujeme Routes , RouterModule
+- Routes - uloženie routrovania (cesta a dany komponent, na ktorý sa presmerujeme)
+
+const nasRouter: Routes = [
+    {path:"", redirectTo:"home", pathMatch:"full"}, //defualtna adresa
+    {path:"home", component:HomeComponentComponent},
+    {path:"red", component:RedComponent},
+];
+
+- RouterModule -  exportovanie naseho routru do modulu komponentu, v ktorom ho chceme pouzit
+
+export const exportovanyModul = RouterModule.forRoot(nasRouter);
+
