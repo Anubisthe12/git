@@ -26,6 +26,12 @@ Guards - canActivate()
  @NgModule({
      providers: [LoggedInGuard],
 })
+
+Parametre z url adresy
+=============
+
+ActivateRoute - umožnuje prístup k dátam k aktívnej cesty
+
  
  
 
