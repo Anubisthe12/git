@@ -19,5 +19,14 @@ Guards - canActivate()
  //Router
  
  {path:"red", component:RedComponent, canActivate:[NazovGuard]},
+ 
+ //App.module.ts
+ pridame nase guards do providers
+ 
+ @NgModule({
+     providers: [LoggedInGuard],
+})
+ 
+ 
 
 
